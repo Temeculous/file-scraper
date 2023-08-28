@@ -1,0 +1,19 @@
+{
+  "name": "file-scraper",
+  "version": "1.0.0",
+  "description": "checks for posted/unposted art",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temeculous/file-scraper.git"
+  },
+  "author": "Sprisk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temeculous/file-scraper/issues"
+  },
+  "homepage": "https://github.com/Temeculous/file-scraper#readme"
+}
