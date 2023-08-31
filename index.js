@@ -34,13 +34,11 @@ function readFolder(parentPath) {
         // Found the end
         let files = []
         if (parent[parent.length - 1] === "Not Posted") {
-            // console.log(parentPath)
             for (let item of dir) {
                 let info = fs.statSync(`${parentPath}/${item}`)
                 if (info.isFile())
                     files.push(`${parentPath}/${item}`)
             }
-            // console.log(files)
         }
         return files.length
     }
